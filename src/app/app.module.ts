@@ -11,7 +11,10 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { ProjectFormComponent } from './project-form/project-form.component';
+=======
+>>>>>>> parent of cb0312b (port component changes)
 =======
 >>>>>>> parent of cb0312b (port component changes)
 
@@ -24,8 +27,12 @@ import { ProjectFormComponent } from './project-form/project-form.component';
     PortfolioComponent,
     ResumeComponent,
 <<<<<<< HEAD
+<<<<<<< HEAD
     ContactComponent,
     ProjectFormComponent
+=======
+    ContactComponent
+>>>>>>> parent of cb0312b (port component changes)
 =======
     ContactComponent
 >>>>>>> parent of cb0312b (port component changes)
