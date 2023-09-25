@@ -11,13 +11,13 @@ interface Tag {
   styleUrls: ['./project-form.component.css']
 })
 export class ProjectFormComponent {
-  project = {
+  project: { name: string; summary: string; tags: Tag[] } = {
     name: '',
     summary: '',
-    tags: [] as Tag[] // Initialize it as an empty array of Tag objects
+    tags: []
   };
-  codingLanguages = '';
-
+  codingLanguages: string = '';
+  
   addProject() {
     // Parse codingLanguages and split them into an array of tags
     const codingLanguageTags = this.codingLanguages.split(',');

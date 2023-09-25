@@ -1,0 +1,16 @@
+<form (ngSubmit)="addProject()">
+    <div class="mb-3">
+      <label for="projectName" class="form-label">Project Name</label>
+      <input type="text" id="projectName" class="form-control" [(ngModel)]="project.name" name="name" required>
+    </div>
+    <div class="mb-3">
+      <label for="projectSummary" class="form-label">Project Summary</label>
+      <textarea id="projectSummary" class="form-control" [(ngModel)]="project.summary" name="summary" required></textarea>
+    </div>
+    <div class="mb-3">
+      <label for="codingLanguages" class="form-label">Coding Languages</label>
+      <input type="text" id="codingLanguages" class="form-control" [(ngModel)]="codingLanguages" name="codingLanguages">
+    </div>
+    <button type="submit" class="btn btn-primary">Add Project</button>
+  </form>
+  
